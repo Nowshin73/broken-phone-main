@@ -52,7 +52,7 @@ const processSearch = (dataLimit) =>{
     const searchField = document.getElementById('search-field');
     const searchText = searchField.value;
     toggleSpinner(true);
-    loadPhones(searchText, dataLimit);
+    return loadPhones(searchText, dataLimit);
 }
 
 // handle search button click
